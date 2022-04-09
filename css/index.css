@@ -1,0 +1,102 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    font-family: 'Permanent Marker', cursive;
+
+}
+body{
+    height: auto;
+    width: auto;
+    background-image: url(https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+header{
+    background-color: rgb(46, 45, 45);
+    width: auto;
+    border-style:solid;
+    border-color: rgb(180, 76, 1);
+}
+#corpo_menu{
+    margin:0px;
+    padding: 10px;
+    padding-bottom: 50px;
+    background-color: black;
+    height:auto;
+    width: 350px;
+    display:none;
+    border-radius: 5px;
+    position:absolute;
+}
+#ft_perfil{
+    height: 200x;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    box-shadow: 10px 10px 10px;
+}
+.opt_menu{
+    color: rgb(70, 69, 69);
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 50px;
+    text-decoration: none;
+}
+.opt_menu:hover{
+    color: brown;
+}
+#redes_sociais{
+    text-align: center;
+}
+#apresentacao{
+    text-align: center;
+}
+#carouselExampleSlidesOnly{
+   position: static;
+    
+}
+main{
+    font-size: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px;
+}
+.d-block, .w-100{
+    height: 500px;
+    width: 250px;
+    display:block;
+    position:relative;
+
+}
+.modelos_sites{
+    border-style:groove;
+}
+.modelos_sites:hover{
+    box-shadow: 50px 50px 50px;
+    border-color: brown;
+}
+
+#conteudo_pg_tersite, .ft_ter_site{
+    text-align: center;
+    margin: 20px;
+    
+}
+#vic_developer{
+    margin: 50px;
+    border-radius: 5px;
+}
+#vic_developer:hover{
+    box-shadow: 20px 20px 20px;
+}
+footer{
+    bottom: 0;
+    position: relative;
+    margin-top: 20px;
+    background-color: rgba(62, 62, 148, 0.616);
+    text-align: center;
+    width: 100%;
+}
