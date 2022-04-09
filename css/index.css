@@ -18,6 +18,9 @@ header{
     border-style:solid;
     border-color: rgb(180, 76, 1);
 }
+#menu{
+    margin-left: 5px;
+}
 #corpo_menu{
     margin:0px;
     padding: 10px;
@@ -75,11 +78,21 @@ main{
 .modelos_sites{
     border-style:groove;
 }
+.modelos_sites_p{
+    text-align: center;
+    display: none;
+    margin: 5px;
+}
 .modelos_sites:hover{
     box-shadow: 50px 50px 50px;
     border-color: brown;
 }
-
+.pg_pequena{
+    text-align: center;
+}
+.contato_tela_p{
+    display: none;
+}
 #conteudo_pg_tersite, .ft_ter_site{
     text-align: center;
     margin: 20px;
@@ -94,9 +107,35 @@ main{
 }
 footer{
     bottom: 0;
-    position: relative;
-    margin-top: 20px;
+    position:relative;
+    margin-top: 150px;
     background-color: rgba(62, 62, 148, 0.616);
     text-align: center;
+
     width: 100%;
+}
+
+audio{
+    text-align: center;
+    height: 20px;
+}
+@media screen and (max-width: 700px) {
+    .img_inicial, #vic_developer{
+        height: 270px;
+        width: 400px;
+    }
+    .pg_grande{
+        display: none;
+    }
+    .modelos_sites_p{
+        display: block;
+        height: 270px;
+        width: 400px;
+    }
+    .contato_tela_g{
+        display: none;
+    }
+    .contato_tela_p{
+        display: block;
+    }
 }
