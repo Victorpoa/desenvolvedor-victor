@@ -99,7 +99,7 @@ main{
     
 }
 #vic_developer{
-    margin: 50px;
+    text-align: center;
     border-radius: 5px;
 }
 #vic_developer:hover{
